@@ -16,20 +16,19 @@ Commit your Java code and JUnit test cases to the Git repository.
 
 # Grading Rubric:
 - Bank account functionality (40 points):
-    - Properly initializes bank accounts with an initial balance (10 points)
-    - Implements deposit functionality (10 points)
-    - Implements withdrawal functionality with appropriate checks (10 points)
-    - Allows checking the account balance (10 points)
+  - Properly initializes bank accounts with an initial balance (10 points)
+  - Implements deposit functionality (10 points)
+  - Implements withdrawal functionality with appropriate checks (10 points)
+  - Allows checking the account balance (10 points)
 
 
 - Git usage (5 points):
-    - Pushed to a remote repository (5 points)
-- Code organization and readability (15 points):
-  - Proper naming conventions (5 points)
-  - Well-structured code (5 points)
-  - Adequate comments/documentation (5 points)
-- Overall submission (10 points):
-  - Adherence to submission deadlines (5 points)
+  - Pushed to a remote repository (5 points)
+- Extra Credit: Code organization and readability (4 points):
+  - Proper naming conventions (1 point)
+  - Well-structured code (1 point)
+  - Adequate comments/documentation (1 point)
+  - Consistent indentation and formatting (1 point)
 
 # Sum (Total) Lab Description:
 In this lab, you will practice control statements (if-else, loops) in Java and use Git. You will work on a program that simulates a simple game, and commit your code to Git repositories.
