@@ -1,4 +1,4 @@
-# Lab Description:
+# Banking Lab Description:
 In this lab, you will create a Java program that simulates a simple banking system. You will implement account creation, deposit, withdrawal, and balance inquiry functionality. Additionally, you will commit your work to Git.
 
 # Lab Tasks:
@@ -30,3 +30,25 @@ Commit your Java code and JUnit test cases to the Git repository.
   - Adequate comments/documentation (5 points)
 - Overall submission (10 points):
   - Adherence to submission deadlines (5 points)
+
+# Sum (Total) Lab Description:
+In this lab, you will practice control statements (if-else, loops) in Java and use Git. You will work on a program that simulates a simple game, and commit your code to Git repositories.
+Your code will be automatically tested for conformance to the rubric
+
+# Lab Tasks:
+Create a Java adding program for a simple total that adds from 0 to the number specified.  The highest number it should accept is 1,000. The program should:
+- Accept a number you want to add to.
+- Add up from 0 to the number specified.
+- Return the correct total.
+
+- # Grading Rubric:
+- Sum functionality (30 points):
+  - Accepts a number when the program is called (5 points)
+  - Adds up from 0 to the number specified (10 points)
+  - Game loop terminates when the total is reached (10 points)
+  - Proper error handling (5 points)
+
+
+- Git collaboration (5 points):
+  - Successfully commit and push code (5 points)
+
