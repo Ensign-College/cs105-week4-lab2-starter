@@ -6,7 +6,6 @@ public class CalculateSum {
 
     private static final Logger logger = Logger.getLogger(CalculateSum.class.getName());
     int num;
-    private static final Logger logger = Logger.getLogger(CalculateSum.class.getName());
 
     public CalculateSum(int n){
         num = calculateSumFunction(n);
