@@ -45,12 +45,13 @@ Create a Java adding program for a simple total that adds from 0 to the number s
   - Accepts a number when the program is called (5 points)
   - Adds up from 0 to the number specified (10 points)
 
+- Git collaboration (5 points):
+  - Successfully commit and push code (5 points)
+
 - Extra Credit: (Code optimization) (15 points)
   - Loop terminates when the total is reached (10 points)
   - Proper error handling (5 points)
 
-- Git collaboration (5 points):
-  - Successfully commit and push code (5 points) 
 
 
 

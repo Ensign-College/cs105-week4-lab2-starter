@@ -1,14 +1,64 @@
 {
   "tests": [
     {
-      "name": "Test Assignments",
+      "name": "Deposit Works",
       "setup": "",
-      "run": "mvn test",
+      "run": "mvn test -Dtest=\"BankAccountTest#testDeposit\"",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "Initial Balance",
+      "setup": "",
+      "run": "BankAccountTest#testCheckBalance",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test Withdraw Insufficient Funds",
+      "setup": "",
+      "run": "mvn test -Dtest=\"BankAccountTest#testWithdrawInsufficientFunds\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Test WithDraw",
+      "setup": "",
+      "run": "mvn test -Dtest=\"BankAccountTest#testWithdraw\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Check Balance",
+      "setup": "",
+      "run": "mvn test -Dtest=\"BankAccountTest#testCheckBalance\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Push to a Remote Git Repository",
+      "setup": "",
+      "run": "echo \"Pushed to Remote Git Repository\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
     }
   ]
 }
