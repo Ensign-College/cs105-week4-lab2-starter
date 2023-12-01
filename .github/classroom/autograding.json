@@ -13,12 +13,12 @@
     {
       "name": "Initial Balance",
       "setup": "",
-      "run": "BankAccountTest#testCheckBalance",
+      "run": "mvn test -Dtest=\"BankAccountTest#testCheckBalance\" --quiet",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": null
+      "points": 10
     },
     {
       "name": "Test Withdraw Insufficient Funds",
