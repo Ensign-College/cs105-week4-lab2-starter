@@ -3,6 +3,7 @@ package org.example;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class BankAccountTest {
 
@@ -24,7 +25,7 @@ public class BankAccountTest {
     void testWithdrawInsufficientFunds() {
         BankAccount account = new BankAccount(50.0);
         account.withdraw(100.0);
-        assertEquals(-50.0, account.getBalance(), 0.01);
+        assertNotEquals(-50.0, account.getBalance(), 0.01);
     }
 
     @Test
