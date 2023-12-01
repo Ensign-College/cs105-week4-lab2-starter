@@ -3,7 +3,7 @@
     {
       "name": "Deposit Works",
       "setup": "",
-      "run": "mvn test -Dtest=\"BankAccountTest#testDeposit\"",
+      "run": "mvn test -Dtest=\"BankAccountTest#testDeposit\" --quiet",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -23,7 +23,7 @@
     {
       "name": "Test Withdraw Insufficient Funds",
       "setup": "",
-      "run": "mvn test -Dtest=\"BankAccountTest#testWithdrawInsufficientFunds\"",
+      "run": "mvn test -Dtest=\"BankAccountTest#testWithdrawInsufficientFunds\" --quiet",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -33,7 +33,7 @@
     {
       "name": "Test WithDraw",
       "setup": "",
-      "run": "mvn test -Dtest=\"BankAccountTest#testWithdraw\"",
+      "run": "mvn test -Dtest=\"BankAccountTest#testWithdraw\" --quiet",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -43,7 +43,7 @@
     {
       "name": "Check Balance",
       "setup": "",
-      "run": "mvn test -Dtest=\"BankAccountTest#testCheckBalance\"",
+      "run": "mvn test -Dtest=\"BankAccountTest#testCheckBalance\" --quiet",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -53,7 +53,7 @@
     {
       "name": "Push to a Remote Git Repository",
       "setup": "",
-      "run": "echo \"Pushed to Remote Git Repository\"",
+      "run": "echo \"Pushed to Remote Git Repository\" --quiet",
       "input": "",
       "output": "",
       "comparison": "exact",
