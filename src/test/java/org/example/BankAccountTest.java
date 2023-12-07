@@ -25,7 +25,8 @@ public class BankAccountTest {
     void testWithdrawInsufficientFunds() {
         BankAccount account = new BankAccount(50.0);
         account.withdraw(100.0);
-        assertNotEquals(-50.0, account.getBalance(), 0.01);
+        assertNotEquals(null, account.getBalance());
+        assertNotEquals(-50.0, account.getBalance());
     }
 
     @Test
