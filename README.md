@@ -1,18 +1,26 @@
-# Banking Lab Description:
-In this lab, you will create a Java program that simulates a simple banking system. You will implement account creation, deposit, withdrawal, and balance inquiry functionality. Additionally, you will commit your work to Git.
+# Out of the Best Books:
+In this lab, you will apply your understanding of UML (Unified Modeling Language) to design and implement Java classes and objects. This exercise will enhance your ability to visualize the structure of a Java program and translate it into code.
 
 # Lab Tasks:
-Create a Java program that models a bank account. The program should have the following functionalities:
-- Create a new bank account with an initial balance.
-- Deposit funds into the account.
-- Withdraw funds from the account.
-- Check the account balance.
+### Part 1: Designing a UML Class Diagram
+_Tasks:_
 
+- **Scenario:** Imagine you are designing a simple Library Management System. This system should be able to manage books and members of the library.
+- **UML Diagram:** Based on the scenario, draw a UML class diagram that includes at least two classes - Book and Member.
+  - For Book, include attributes like title, author, and ISBN. Add methods such as borrow() and returnBook().
+  - For Member, include attributes like name, memberId, and booksBorrowed. Include methods like borrowBook(Book book) and returnBook(Book book).
 
+### Part 2: Implementing Classes in Java
+_Tasks:_
 
+- **Create Classes Based on UML Diagram:**
+  - Translate your UML class diagram into Java code. Create the Book and Member classes with the attributes and methods as specified in your diagram.
+  - Ensure to include constructors, getters, and setters for each class. Remember to use appropriate access modifiers.
+Implement the borrowBook(Book book) method in the Member class to update the booksBorrowed attribute and, similarly, returnBook(Book book) to handle returning a book.
 
-Commit your Java code and JUnit test cases to the Git repository.
-
+### Optional -- Part 3: Reflection and Documentation
+_Tasks:_
+- **Reflect on Your Design:** Compare your Java implementation with your UML diagram. Reflect on any discrepancies or design changes you made during the implementation process.
 
 # Grading Rubric:
 - Bank account functionality (40 points):
@@ -29,28 +37,6 @@ Commit your Java code and JUnit test cases to the Git repository.
   - Well-structured code (1 point)
   - Adequate comments/documentation (1 point)
   - Consistent indentation and formatting (1 point)
-
-# Sum (Total) Lab Description:
-In this lab, you will practice control statements (if-else, loops) in Java and use Git. You will work on a program that simulates a simple game, and commit your code to Git repositories.
-Your code will be automatically tested for conformance to the rubric
-
-# Lab Tasks:
-Create a Java adding program for a simple total that adds from 0 to the number specified.  The highest number it should accept is 1,000. The program should:
-- Accept a number you want to add to.
-- Add up from 0 to the number specified.
-- Return the correct total.
-
-- # Grading Rubric:
-- Sum functionality (30 points):
-  - Accepts a number when the program is called (5 points)
-  - Adds up from 0 to the number specified (10 points)
-
-- Git collaboration (5 points):
-  - Successfully commit and push code (5 points)
-
-- Extra Credit: (Code optimization) (15 points)
-  - Loop terminates when the total is reached (10 points)
-  - Proper error handling (5 points)
 
 
 
