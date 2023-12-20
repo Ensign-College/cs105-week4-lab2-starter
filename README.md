@@ -45,7 +45,7 @@ _Tasks:_
   - title - 2.5 points
   - author - 2.5 points
   - ISBN - 2.5 points
-  = isAvailable - 2.5 points
+  - isAvailable - 2.5 points
   - getIsAvailable() - 5 points
   - setIsAvailable(Boolean) - 5 points
 - **Member Class:**
