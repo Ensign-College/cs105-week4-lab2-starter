@@ -23,35 +23,35 @@ _Tasks:_
 - **Reflect on Your Design:** Compare your Java implementation with your UML diagram. Reflect on any discrepancies or design changes you made during the implementation process.
 
 # Grading Rubric:
-### Part 1 Designing a UML Class Diagram: 60 points
+### Part 1 Designing a UML Class Diagram: 37.5 points
 
 - **Book class:**
-  - title - 5 points
-  - author - 5 points
-  - ISBN - 5 points
-  - isAvailable - 5 points
+  - title - 2.5 points
+  - author - 2.5 points
+  - ISBN - 2.5 points
+  - isAvailable - 2.5 points
   - getIsAvailable() - 5 points
   - setIsAvailable() - 5 points
 - **Member Class:**
-  - name - 5 points
-  - memberId - 5 points
-  - booksBorrowed - 5 points
+  - name - 2.5 points
+  - memberId - 2.5 points
+  - booksBorrowed - 2.5 points
   - borrowBook() - 5 points
   - returnBook() - 5 points
  
-### Part 2: Implementing Classes In Java: 60 points
+### Part 2: Implementing Classes In Java: 37.5 points
 
 - **Book class:**
-  - title - 5 points
-  - author - 5 points
-  - ISBN - 5 points
-  = isAvailable - 5 points
+  - title - 2.5 points
+  - author - 2.5 points
+  - ISBN - 2.5 points
+  = isAvailable - 2.5 points
   - getIsAvailable() - 5 points
   - setIsAvailable(Boolean) - 5 points
 - **Member Class:**
-  - name - 5 points
-  - memberId - 5 points
-  - booksBorrowed - 5 points
+  - name - 2.5 points
+  - memberId - 2.5 points
+  - booksBorrowed - 2.5 points
   - borrowBook() - 5 points
   - returnBook() - 5 points
 
