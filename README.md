@@ -23,20 +23,37 @@ _Tasks:_
 - **Reflect on Your Design:** Compare your Java implementation with your UML diagram. Reflect on any discrepancies or design changes you made during the implementation process.
 
 # Grading Rubric:
-- Bank account functionality (40 points):
-  - Properly initializes bank accounts with an initial balance (10 points)
-  - Implements deposit functionality (10 points)
-  - Implements withdrawal functionality with appropriate checks (10 points)
-  - Allows checking the account balance (10 points)
+### Part 1 Designing a UML Class Diagram: 60 points
 
+- **Book class:**
+  - title - 5 points
+  - author - 5 points
+  - ISBN - 5 points
+  - isAvailable - 5 points
+  - getIsAvailable() - 5 points
+  - setIsAvailable() - 5 points
+- **Member Class:**
+  - name - 5 points
+  - memberId - 5 points
+  - booksBorrowed - 5 points
+  - borrowBook() - 5 points
+  - returnBook() - 5 points
+ 
+### Part 2: Implementing Classes In Java: 60 points
 
-- Git usage (5 points):
-  - Pushed to a remote repository (5 points)
-- Extra Credit: Code organization and readability (4 points):
-  - Proper naming conventions (1 point)
-  - Well-structured code (1 point)
-  - Adequate comments/documentation (1 point)
-  - Consistent indentation and formatting (1 point)
+- **Book class:**
+  - title - 5 points
+  - author - 5 points
+  - ISBN - 5 points
+  = isAvailable - 5 points
+  - getIsAvailable() - 5 points
+  - setIsAvailable(Boolean) - 5 points
+- **Member Class:**
+  - name - 5 points
+  - memberId - 5 points
+  - booksBorrowed - 5 points
+  - borrowBook() - 5 points
+  - returnBook() - 5 points
 
 
 
