@@ -23,37 +23,37 @@ _Tasks:_
 - **Reflect on Your Design:** Compare your Java implementation with your UML diagram. Reflect on any discrepancies or design changes you made during the implementation process.
 
 # Grading Rubric:
-### Part 1 Designing a UML Class Diagram: 37.5 points
+### Part 1 Designing a UML Class Diagram: 20 points
 
 - **Book class:**
-  - title - 2.5 points
-  - author - 2.5 points
-  - ISBN - 2.5 points
-  - isAvailable - 2.5 points
-  - getIsAvailable() - 5 points
-  - setIsAvailable() - 5 points
+  - title - 1.25 points
+  - author - 1.25 points
+  - ISBN - 1.25 points
+  - isAvailable - 1.25 points
+  - getIsAvailable() - 2.5 points
+  - setIsAvailable() - 2.5 points
 - **Member Class:**
-  - name - 2.5 points
-  - memberId - 2.5 points
-  - booksBorrowed - 2.5 points
-  - borrowBook() - 5 points
-  - returnBook() - 5 points
+  - name - 1.25 points
+  - memberId - 1.25 points
+  - booksBorrowed - 1.25 points
+  - borrowBook() - 2.5 points
+  - returnBook() - 2.5 points
  
-### Part 2: Implementing Classes In Java: 37.5 points
+### Part 2: Implementing Classes In Java: 20 points
 
 - **Book class:**
-  - title - 2.5 points
-  - author - 2.5 points
-  - ISBN - 2.5 points
-  - isAvailable - 2.5 points
-  - getIsAvailable() - 5 points
-  - setIsAvailable(Boolean) - 5 points
+  - title - 1.25 points
+  - author - 1.25 points
+  - ISBN - 1.25 points
+  - isAvailable - 1.25 points
+  - getIsAvailable() - 2.5 points
+  - setIsAvailable() - 2.5 points
 - **Member Class:**
-  - name - 2.5 points
-  - memberId - 2.5 points
-  - booksBorrowed - 2.5 points
-  - borrowBook() - 5 points
-  - returnBook() - 5 points
+  - name - 1.25 points
+  - memberId - 1.25 points
+  - booksBorrowed - 1.25 points
+  - borrowBook() - 2.5 points
+  - returnBook() - 2.5 points
 
 
 
