@@ -1,84 +1,115 @@
 {
   "tests": [
+
     {
-      "name": "Deposit Works",
+      "name": "Week 4 Lab 1 Title Attribute Included",
       "setup": "",
-      "run": "mvn test -Dtest=\"BankAccountTest#testDeposit\" --quiet",
+      "run": "mvn test -Dtest=\"BookTest#getTitle\" --quiet",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 10
+      "points": 1.25
     },
     {
-      "name": "Initial Balance",
+      "name": "Week 4 Lab 1 Author Attrubute Included",
       "setup": "",
-      "run": "mvn test -Dtest=\"BankAccountTest#testCheckBalance\" --quiet",
+      "run": "mvn test -Dtest=\"BookTest#getAuthor\" --quiet",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 10
+      "points": 1.25
     },
     {
-      "name": "Test Withdraw Insufficient Funds",
+      "name": "Week 4 Lab 1 ISBN Attribute Included",
       "setup": "",
-      "run": "mvn test -Dtest=\"BankAccountTest#testWithdrawInsufficientFunds\" --quiet",
+      "run": "mvn test -Dtest=\"BookTest#getISBN\" --quiet",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 5
+      "points": 1.25
     },
     {
-      "name": "Test WithDraw",
+      "name": "Week 4 Lab 1 isAvailalbe Attribute Included",
       "setup": "",
-      "run": "mvn test -Dtest=\"BankAccountTest#testWithdraw\" --quiet",
+      "run": "mvn test -Dtest=\"BookTest#testGetIsAvailable\" --quiet",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 5
+      "points": 1.25
     },
     {
-      "name": "Check Balance",
+      "name": "Week 4 Lab 1 - Testing getIsAvaialble Method",
       "setup": "",
-      "run": "mvn test -Dtest=\"BankAccountTest#testCheckBalance\" --quiet",
+      "run": "mvn test -Dtest=\"BookTest#testGetIsAvailable\" --quiet",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 10
+      "points": 2.5
     },
     {
-      "name": "Push to a Remote Git Repository - Bank Account Assignment",
+      "name": "Week 4 Lab 1 - Testing setIsAvaialble Method",
       "setup": "",
-      "run": "echo \"Pushed to Remote Git Repository\" --quiet",
+      "run": "mvn test -Dtest=\"BookTest#testSetIsAvailable\" --quiet",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 5
+      "points": 2.5
     },
     {
-      "name": "Push to a Remote Git Repository- Sum Assignment",
+      "name": "Week 4 Lab 1 - Name Attribute included",
       "setup": "",
-      "run": "echo \"Pushed to Remote Git Repository\" --quiet",
+      "run": "mvn test -Dtest=\"MemberTest#getName\" --quiet",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 5
+      "points": 1.25
     },
     {
-      "name": "Check Sum",
+      "name": "Week 4 Lab 1 - MemberId Attribute Included",
       "setup": "",
-      "run": "mvn test -Dtest=\"CalculateSumTest#calculateSumFunction\" --quiet",
+      "run": "mvn test -Dtest=\"MemberTest#getMemberID\" --quiet",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 15
+      "points": 1.25
+    }
+    ,{
+      "name": "Week 4 Lab 1 - booksBorrowed Attribute Included (this will not be a string)",
+      "setup": "",
+      "run": "mvn test -Dtest=\"MemberTest#testBooksBorrowed\" --quiet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1.25
+    }
+    ,{
+      "name": "Week 4 Lab 1 - Testing borrowBook method",
+      "setup": "",
+      "run": "mvn test -Dtest=\"MemberTest#testBorrowBook\" --quiet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2.5
+    }
+    ,{
+      "name": "Week 4 Lab 1 - Testing returnBook method)",
+      "setup": "",
+      "run": "mvn test -Dtest=\"MemberTest#testReturnBook\" --quiet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2.5
     }
   ]
 }
