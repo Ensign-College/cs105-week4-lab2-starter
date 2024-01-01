@@ -43,7 +43,7 @@ _Tasks:_
 
 _**Tip:** Make sure to add getter methods to get points for all of your attributes_
 
-Click [here]([url](https://www.w3schools.com/java/java_encapsulation.asp)) to review how getters and setter work and click [here]([url](https://www.youtube.com/watch?v=rfJs-B9YJVU)) to review how to generate them in VSCode.
+Click [here](https://www.w3schools.com/java/java_encapsulation.asp) to review how getters and setter work and click [here](https://www.youtube.com/watch?v=rfJs-B9YJVU) to review how to generate them in VSCode.
 
 - **Book class:**
   - title - 1.25 points
