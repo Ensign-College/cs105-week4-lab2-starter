@@ -70,8 +70,8 @@ INFO: Total Expenses: $-400.0
   - Consistent indentation and formatting (1 point)
 
 # Grace unto the Hearers:
-In this lab, you will create a Java program that simulates a fertilizer calculator.
-Additionally, you will commit your work to Git.
+In this lab, you will create a social media analyzer reading the file and get basic data analysis concepts 
+
 # What you need to know
 The objective of this lab is to implement a Social Media Analyzer using Java programming techniques, 
 including file reading, data processing with Java Streams, and logging.
