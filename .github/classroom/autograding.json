@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Week 5 Lab 1 Steward over Earthly Blessings - Push to a Remote Git Repository",
+      "setup": "",
+      "run": "echo \"Pushed to Remote Git Repository\" --quiet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "Week 5 Lab 1 Steward over Earthly Blessings - Test Read Transactions From CSV",
+      "setup": "",
+      "run": "mvn test -Dtest=\"FinancialTransactionProcessorTest#testReadTransactionsFromCSV\" --quiet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "Week 5 Lab 1 Steward over Earthly Blessings - Test Calculate Total Amount ",
+      "setup": "",
+      "run": "mvn test -Dtest=\"FinancialTransactionProcessorTest#testCalculateTotalAmount\" --quiet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Week 5 Lab 2 Grace unto the Hearers - Push to a Remote Git Repository",
+      "setup": "",
+      "run": "echo \"Pushed to Remote Git Repository\" --quiet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Week 5 Lab 2 Grace unto the Hearers - Test Read Posts From CSV",
+      "setup": "",
+      "run": "mvn test -Dtest=\"SocialMediaAnalyzerTest#testReadPostsFromCSV\" --quiet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Week 5 Lab 2 Grace unto the Hearers - Test Find Most Liked Post",
+      "setup": "",
+      "run": "mvn test -Dtest=\"SocialMediaAnalyzerTest#testFindMostLikedPost\" --quiet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Week 5 Lab 2 Grace unto the Hearers - Test Calculate Average Shares",
+      "setup": "",
+      "run": "mvn test -Dtest=\"SocialMediaAnalyzerTest#testCalculateAverageShares\" --quiet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Week 5 Lab 2 Grace unto the Hearers - Test Filter Posts By Keyword",
+      "setup": "",
+      "run": "mvn test -Dtest=\"SocialMediaAnalyzerTest#testFilterPostsByKeyword\" --quiet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
