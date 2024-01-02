@@ -16,21 +16,9 @@ public class Main {
 
         String transactionsFile = "transactions.csv";
         List<Transaction> transactions;
-        transactions = FinancialTransactionProcessor.readTransactionsFromCSV(transactionsFile);
-        transactions.forEach(transaction -> logger.info(transaction.toString()));
-        logger.info("All transactions");
-        FinancialTransactionProcessor.calculateAndLogSummary(transactions);
 
         //Social Media Analyzer
         String postsFile = "socialMediaData.csv";
         List<SocialMediaPost> posts;
-        posts = SocialMediaAnalyzer.readPostsFromCSV(postsFile);
-        logger.info("Social Media Analyzer Reading...");
-        SocialMediaPost mostLikedPost = SocialMediaAnalyzer.findMostLikedPost(posts);
-        logger.info("Most Liked Post: " + mostLikedPost);
-        double averageShares = SocialMediaAnalyzer.calculateAverageShares(posts);
-        logger.info("Average Shares: " + averageShares);
-        List<SocialMediaPost> filteredPosts = SocialMediaAnalyzer.filterPostsByKeyword(posts, "book");
-        filteredPosts.forEach(post -> logger.info("Filtered Post: " + post));
     }
 }
