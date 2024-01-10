@@ -2,7 +2,7 @@
   "tests": [
 
     {
-      "name": "Week 4 Lab 1 Title Attribute Included",
+      "name": "Week 4 Lab 1 Out of the Best Books - Title Attribute Included",
       "setup": "",
       "run": "mvn test -Dtest=\"BookTest#getTitle\" --quiet",
       "input": "",
@@ -12,7 +12,7 @@
       "points": 1.25
     },
     {
-      "name": "Week 4 Lab 1 Author Attrubute Included",
+      "name": "Week 4 Lab 1 Out of the Best Books - Author Attrubute Included",
       "setup": "",
       "run": "mvn test -Dtest=\"BookTest#getAuthor\" --quiet",
       "input": "",
@@ -22,7 +22,7 @@
       "points": 1.25
     },
     {
-      "name": "Week 4 Lab 1 ISBN Attribute Included",
+      "name": "Week 4 Lab 1 Out of the Best Books - ISBN Attribute Included",
       "setup": "",
       "run": "mvn test -Dtest=\"BookTest#getISBN\" --quiet",
       "input": "",
@@ -32,7 +32,7 @@
       "points": 1.25
     },
     {
-      "name": "Week 4 Lab 1 isAvailalbe Attribute Included",
+      "name": "Week 4 Lab 1 Out of the Best Books - isAvailalbe Attribute Included",
       "setup": "",
       "run": "mvn test -Dtest=\"BookTest#testGetIsAvailable\" --quiet",
       "input": "",
@@ -42,7 +42,7 @@
       "points": 1.25
     },
     {
-      "name": "Week 4 Lab 1 - Testing getIsAvaialble Method",
+      "name": "Week 4 Lab 1 Out of the Best Books - Testing getIsAvaialble Method",
       "setup": "",
       "run": "mvn test -Dtest=\"BookTest#testGetIsAvailable\" --quiet",
       "input": "",
@@ -52,7 +52,7 @@
       "points": 2.5
     },
     {
-      "name": "Week 4 Lab 1 - Testing setIsAvaialble Method",
+      "name": "Week 4 Lab 1 Out of the Best Books - Testing setIsAvaialble Method",
       "setup": "",
       "run": "mvn test -Dtest=\"BookTest#testSetIsAvailable\" --quiet",
       "input": "",
@@ -62,7 +62,7 @@
       "points": 2.5
     },
     {
-      "name": "Week 4 Lab 1 - Name Attribute included",
+      "name": "Week 4 Lab 1 Out of the Best Books - Name Attribute included",
       "setup": "",
       "run": "mvn test -Dtest=\"MemberTest#getName\" --quiet",
       "input": "",
@@ -72,7 +72,7 @@
       "points": 1.25
     },
     {
-      "name": "Week 4 Lab 1 - MemberId Attribute Included",
+      "name": "Week 4 Lab 1 Out of the Best Books - MemberId Attribute Included",
       "setup": "",
       "run": "mvn test -Dtest=\"MemberTest#getMemberID\" --quiet",
       "input": "",
@@ -82,7 +82,7 @@
       "points": 1.25
     }
     ,{
-      "name": "Week 4 Lab 1 - booksBorrowed Attribute Included (this will not be a string)",
+      "name": "Week 4 Lab 1 Out of the Best Books - booksBorrowed Attribute Included (this will not be a string)",
       "setup": "",
       "run": "mvn test -Dtest=\"MemberTest#testBooksBorrowed\" --quiet",
       "input": "",
@@ -92,7 +92,7 @@
       "points": 1.25
     }
     ,{
-      "name": "Week 4 Lab 1 - Testing borrowBook method",
+      "name": "Week 4 Lab 1 Out of the Best Books - Testing borrowBook method",
       "setup": "",
       "run": "mvn test -Dtest=\"MemberTest#testBorrowBook\" --quiet",
       "input": "",
@@ -102,7 +102,7 @@
       "points": 2.5
     }
     ,{
-      "name": "Week 4 Lab 1 - Testing returnBook method)",
+      "name": "Week 4 Lab 1 Out of the Best Books - Testing returnBook method",
       "setup": "",
       "run": "mvn test -Dtest=\"MemberTest#testReturnBook\" --quiet",
       "input": "",
