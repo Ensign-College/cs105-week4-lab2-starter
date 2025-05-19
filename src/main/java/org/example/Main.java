@@ -17,8 +17,5 @@ public class Main {
         String transactionsFile = "transactions.csv";
         List<Transaction> transactions;
 
-        //Social Media Analyzer
-        String postsFile = "socialMediaData.csv";
-        List<SocialMediaPost> posts;
     }
 }
